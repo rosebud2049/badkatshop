@@ -23,6 +23,7 @@
             :data-item-url="`${storeUrl}${this.$route.fullPath}`"
             :data-item-description="illustration.description"
             :data-item-name="illustration.title"
+            :data-item-image="illustration.image[0].formats.small.url"
           >
             Add to cart
           </button>
