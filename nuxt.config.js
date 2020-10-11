@@ -66,12 +66,12 @@ export default {
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: "https://badkatshopeu.herokuapp.com/graphql"
+        httpEndpoint: "https://badkatshop.herokuapp.com/graphql"
       }
     }
   },
   env: {
-    storeUrl: process.env.STORE_URL || "https://badkatshopeu.herokuapp.com"
+    storeUrl: process.env.STORE_URL || "https://badkatshop.herokuapp.com"
   },
   /*
    ** Nuxt.js modules
