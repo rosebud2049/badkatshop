@@ -9,6 +9,9 @@
         class="border rounded-lg bg-gray-100 hover:shadow-lg"
       >
         <nuxt-link :to="`/illustrations/${p.id}`">
+          <div class="rounded-t-lg bg-white pt-2 pb-2">
+            <img class="crop mx-auto" :src="p.image[0].formats.small.url" />
+          </div>
           <div class="rounded-t-lg bg-white pt-2 pb-2"></div>
           <div class="pl-4 pr-4 pb-4 pt-4 rounded-lg">
             <h4
@@ -41,6 +44,9 @@ export default {
           id
           title
           description
+          image {
+            formats
+          }
         }
       }
     `,
