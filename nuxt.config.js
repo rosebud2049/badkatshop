@@ -32,12 +32,12 @@ export default {
       { rel: "preconnect", href: "https://cdn.snipcart.com" },
       {
         rel: "stylesheet",
-        href: "https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css"
+        href: "https://cdn.snipcart.com/themes/v3.0.23/default/snipcart.css"
       },
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ],
     script: [
-      { src: "https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" }
+      { src: "https://cdn.snipcart.com/themes/v3.0.23/default/snipcart.js" }
     ]
   },
   /*
