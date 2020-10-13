@@ -20,7 +20,7 @@
             class="snipcart-add-item mt-4 bg-white border border-gray-200 d hover:shadow-lg text-gray-700 font-semibold py-2 px-4 rounded shadow"
             :data-item-id="illustration.id"
             :data-item-price="illustration.price"
-            :data-item-url="`${storeUrl}${this.$route.fullPath}`"
+            :data-item-url="`${this.$route.fullPath}`"
             :data-item-description="illustration.description"
             :data-item-name="illustration.title"
             :data-item-image="illustration.image[0].formats.small.url"
