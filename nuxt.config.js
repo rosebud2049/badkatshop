@@ -17,7 +17,7 @@ export default {
   //  <script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js"></script>
 
   head: {
-    title: "The Cupcake Factory (Nuxt/Strapi/Snipcart)",
+    title: "bad.kat.shop",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
